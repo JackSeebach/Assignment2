@@ -1,0 +1,74 @@
+/* Jack Seebach */
+/* Prog 1247 */
+
+/* Set the font for the whole body to a sans-serif */
+html{
+	background-image: url("../images/bats.gif");
+	background-repeat: repeat;
+}
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	width: 800px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	box-shadow: 5px 5px;
+	margin: auto;
+	background-image: url("..\images\bats.gif");
+
+}
+/* Set the image to float on the left */
+header img{
+	float: left;
+}
+header{
+	border-bottom:solid;
+	background: linear-gradient(45DEG, white, orange, orange, black);
+	padding: 1px;
+}
+/* Set the color and other formatting actions for the large text in the header */
+header h2{
+	font-size: 40px;
+	text-indent: 40px;
+}
+/* Indent this header so it aligns with the other text */
+header h3{
+	text-indent: 125px;
+	font-size: 20px;
+}
+/* Edit the firstletter class so it is larger than the other text */
+.firstletter{
+	font-size: 50px;
+}
+main h1{
+	font-size: 22px;
+}
+.sidebar{
+	width: 160px;
+	padding-bottom: 280px;
+	float:left;
+	border-right: solid;
+	border-bottom: solid;
+	background-color: #FFFFFF;
+	z-index: 1;
+}
+/* Bold all the list elements */
+ul li{
+	padding: 5px;
+	font-weight: bold; 
+}
+/* Set the color of the link and visited link to orange */
+a:link, a:visited{
+	color: #FF9933;
+}
+/* Set the color of the recently clicked link and hovered links to green */
+a:active, a:hover{
+	color: #4CAF50;
+}
+/* Center the footer and make it smaller */
+footer{
+	text-align: center;
+	font-size: 11px;
+	border-top: solid;
+	background: linear-gradient(45DEG, black, orange, orange, white);
+	padding: 1px;
+}
